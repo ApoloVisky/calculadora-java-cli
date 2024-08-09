@@ -24,6 +24,8 @@ public class Main  {
         System.out.print("Digite o segundo número: ");
         num2 =  scanner.nextInt();
 
+        scanner.close();
+
 
         if (operacao.equals("+")){
             aritmetica = "soma";
